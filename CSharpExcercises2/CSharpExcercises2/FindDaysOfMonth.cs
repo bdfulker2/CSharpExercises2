@@ -2,7 +2,7 @@
 
 namespace CSharpExcercises2
 {
-    public class Class1
+    public class FindDaysOfMonth
     {
     }
 }
