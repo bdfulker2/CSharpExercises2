@@ -7,9 +7,10 @@ namespace CSharpExercises2Tests
     public class FindDaysOfMonthTests
     {
         [Test]
+        [TestCase(2,2018, ExpectedResult = 28)]
         public int DaysOfMonthTest(int month, int year)
         {
-            return 1;
+            return DaysOfMonth(month, year);
         }
     }
 }
