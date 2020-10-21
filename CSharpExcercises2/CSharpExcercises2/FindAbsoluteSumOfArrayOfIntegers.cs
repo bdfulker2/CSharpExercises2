@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CSharpExcercises2
@@ -14,6 +15,11 @@ namespace CSharpExcercises2
         public int GetAbsoluteSum(int[] arrayOfIntegers)
         {
             int absoluteSum = 0;
+            foreach(int i in arrayOfIntegers)
+            {
+                absoluteSum += Math.Abs(i);
+            }
+           
             return absoluteSum;
         }
     }
