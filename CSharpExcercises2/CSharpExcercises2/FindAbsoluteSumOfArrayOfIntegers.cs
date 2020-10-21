@@ -9,7 +9,12 @@ namespace CSharpExcercises2
     /// The term "absolute value" means to remove any negative sign in front of a number, and to think of all numbers as positive (or zero).
     /// All the elements in the given array are integers.
     /// </summary>
-    class FindAbsoluteSumOfArrayOfIntegers
+    public class FindAbsoluteSumOfArrayOfIntegers
     {
+        public int GetAbsoluteSum(int[] arrayOfIntegers)
+        {
+            int absoluteSum = 0;
+            return absoluteSum;
+        }
     }
 }
