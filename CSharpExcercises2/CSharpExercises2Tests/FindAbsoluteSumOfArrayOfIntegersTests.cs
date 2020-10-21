@@ -17,7 +17,8 @@ namespace CSharpExercises2Tests
         [TestCase(new int[] { 500 }, ExpectedResult = 500)]
         public int GetAbsoluteSum(int[] arrayOfInteger = null)
         {
-            return 0;
+            FindAbsoluteSumOfArrayOfIntegers absoluteSum = new FindAbsoluteSumOfArrayOfIntegers();
+            return absoluteSum.GetAbsoluteSum(arrayOfInteger);
         }
     }
 }
